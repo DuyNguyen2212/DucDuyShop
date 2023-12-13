@@ -8,6 +8,7 @@
 	<div class="register-photo">
 		<div class="form-container">
 			<div class="image-holder" style="background: url(<c:url value="/assets/img/logimg.jpg" />); background-size: cover"></div>
+			
 			<form:form action="signup" method="POST" modelAttribute="newaccount" id="sign-up-form">
 				<h1 class="text-center"><a style="text-decoration: none; color: #e85d90" href="<c:url value="/" />">DD Shop</a></h1>
 				<h2 class="text-center">
@@ -51,8 +52,19 @@
 			</form:form>
 		</div>
 	</div>
+	
+	<c:if test="${ not empty issuccess }">
+  		<div class="mess-container d-flex">
+    		<div class="mess-box">
+      			<label class="mess-success">Đăng ký thành công !</label>
+      			<a class="btn btn-primary btn-block" href="<c:url value="/login" />" class="login-link">Đăng nhập</a>
+    		</div>
+    		<input id="check" type="hidden" value="text"  />
+  		</div>
+  	</c:if>
 
-	<content tag="script"> <script>
+	<content tag="script"> 
+	<script>
 		Validator({
 			form : '#sign-up-form',
 			formGroupSelector : '.form-group',
@@ -70,5 +82,7 @@
 								.querySelector('#sign-up-form #password').value
 					}, 'Mật khẩu nhập lại không chính xác!') ]
 		})
-	</script> </content>
+	</script> 
+	</content>
+	
 </body>

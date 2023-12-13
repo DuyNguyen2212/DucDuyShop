@@ -131,7 +131,7 @@
                         	</c:if>
                         	<c:if test="${ not empty loginsession }">
                         		<div class="nav-item dropdown">
-	                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">${ loginsession.name }</a>
+	                                <a style="min-width: 130px; text-align-last: end;" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">${ loginsession.name }</a>
 	                                <div class="dropdown-menu rounded-0 m-0">
 	                                	<c:if test="${ rolesession == 'admin, user' }">
 	                            			<a href="<c:url value="/admin" />" class="nav-item nav-link">DD Admin</a>

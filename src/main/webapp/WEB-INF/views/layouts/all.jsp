@@ -23,6 +23,21 @@
     <decorator:getProperty property="page.script" ></decorator:getProperty>
     
     <script>
+    var mess_container = document.querySelector('.mess-container')
+    mess_container.onclick = function() {
+      mess_container.classList.remove('d-flex')
+    }
+    
+    var check = document.querySelector('#check')
+    var namename = document.querySelector('#name')
+    var email = document.querySelector('#email')
+    var password = document.querySelector('#password')
+    if(check) {
+    	namename.value = ''
+    	email.value= ''
+    	password.value = ''
+    }
+    
     var messages = document.querySelectorAll('.e-message');
     Array.from(messages).forEach(message => {
       if(message.innerHTML != null) {

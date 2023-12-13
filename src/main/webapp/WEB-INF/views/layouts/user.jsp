@@ -51,5 +51,11 @@
     <script src="<c:url value="/assets/js/validator.js" />"></script>
     
     <decorator:getProperty property="page.script" ></decorator:getProperty>
+    <script>
+	    var mess_container = document.querySelector('.mess-container')
+	    mess_container.onclick = function() {
+	      mess_container.classList.remove('d-flex')
+	    }
+    </script>
 </body>
 </html>

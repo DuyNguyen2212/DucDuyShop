@@ -98,6 +98,15 @@
     </div>
     <!-- Cart End -->
     
+    <c:if test="${ success }">
+  		<div class="mess-container d-flex">
+    		<div class="mess-box">
+      			<label class="mess-success">Đặt hàng thành công !</label>
+      			<a class="btn btn-primary btn-block" href="<c:url value="/bill" />" class="login-link">Đơn hàng của bạn</a>
+    		</div>
+  		</div>
+  	</c:if>
+    
     <content tag="script">
 		<script type="text/javascript">
 			$('.edit-btn').bind('keyup mouseup', function() {
