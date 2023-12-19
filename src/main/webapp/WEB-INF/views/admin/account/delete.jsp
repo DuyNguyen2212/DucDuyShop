@@ -36,7 +36,7 @@
                     </label>
                   </div>
                   <div class="form-group">
-                    <label class="col-sm-2 control-label">Tên tài khoản</label>
+                    <label class="col-sm-2 control-label">Email</label>
                     <label class="col-sm-10">
                       ${ deleteaccount.username }
                     </label>

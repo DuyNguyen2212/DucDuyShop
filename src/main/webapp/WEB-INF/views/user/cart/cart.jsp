@@ -44,7 +44,7 @@
                     <tbody class="align-middle">
                     	<c:forEach var="item" items="${ cart }">		
 	                        <tr>
-	                            <td class="align-middle"><a><img src="<c:url value="/assets/img/product/${ item.product.image }" />" alt="" style="width: 50px;">${ item.product.name }</a></td>
+	                            <td class="align-middle"><a href="<c:url value="/details/${ item.product.id }" />"><img src="<c:url value="/assets/img/product/${ item.product.image }" />" alt="" style="width: 50px;"><p style="white-space: nowrap;max-width: 150px;overflow: hidden;">${ item.product.name }</p></a></td>
 	                            <td class="align-middle">
 	                            	<c:forEach var="size" items="${ sizes }">
 	                            		<c:if test="${ size.id == item.size_id }">

@@ -9,48 +9,39 @@
                 <a href="" class="text-decoration-none">
                     <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">DD</span>Shop</h1>
                 </a>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Số 22, Đông Thọ, Yên Phong, Bắc Ninh</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>Duygiaosu2212@gmail.com</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>0352375224</p>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
                     <div class="col-md-4 mb-5">
-                        <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
+                        <h5 class="font-weight-bold text-dark mb-4">Truy cập nhanh</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
-                            <a class="text-dark mb-2" href="detail.html"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
-                            <a class="text-dark mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-                            <a class="text-dark mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            <a class="text-dark" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-dark mb-2" href="<c:url value="/" />"><i class="fa fa-angle-right mr-2"></i>Trang chủ</a>
+                            <a class="text-dark mb-2" href="<c:url value="/all" />"><i class="fa fa-angle-right mr-2"></i>Sản phẩm</a>
+                            <a class="text-dark mb-2" href="<c:url value="/contact" />"><i class="fa fa-angle-right mr-2"></i>Liên hệ</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
-                        <h5 class="font-weight-bold text-dark mb-4">Quick Links</h5>
+                        <h5 class="font-weight-bold text-dark mb-4">Danh mục</h5>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                            <a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
-                            <a class="text-dark mb-2" href="detail.html"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
-                            <a class="text-dark mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-                            <a class="text-dark mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            <a class="text-dark" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-dark mb-2" href="<c:url value="/category1" />"><i class="fa fa-angle-right mr-2"></i>Áo khoác</a>
+                            <a class="text-dark mb-2" href="<c:url value="/category2" />"><i class="fa fa-angle-right mr-2"></i>Áo phông</a>
+                            <a class="text-dark mb-2" href="<c:url value="/category4" />"><i class="fa fa-angle-right mr-2"></i>Chân váy</a>
+                            <a class="text-dark mb-2" href="<c:url value="/category5" />"><i class="fa fa-angle-right mr-2"></i>Quần dài</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-5">
-                        <h5 class="font-weight-bold text-dark mb-4">Newsletter</h5>
-                        <form action="">
-                            <div class="form-group">
-                                <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
-                                    required="required" />
-                            </div>
-                            <div>
-                                <button class="btn btn-primary btn-block border-0 py-3" type="submit">Subscribe Now</button>
-                            </div>
-                        </form>
+                        <h5 class="font-weight-bold text-dark mb-4">Thương hiệu</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-dark mb-2" href="<c:url value="/company1" />"><i class="fa fa-angle-right mr-2"></i>COLETTE</a>
+                            <a class="text-dark mb-2" href="<c:url value="/company2" />"><i class="fa fa-angle-right mr-2"></i>ELLE</a>
+                            <a class="text-dark mb-2" href="<c:url value="/company3" />"><i class="fa fa-angle-right mr-2"></i>GUCCI</a>
+                            <a class="text-dark mb-2" href="<c:url value="/company4" />"><i class="fa fa-angle-right mr-2"></i>LEN</a>
+                            <a class="text-dark mb-2" href="<c:url value="/company5" />"><i class="fa fa-angle-right mr-2"></i>LOUIS VUITTON</a>
+                            <a class="text-dark mb-2" href="<c:url value="/company6" />"><i class="fa fa-angle-right mr-2"></i>NIKE</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -58,8 +49,7 @@
         <div class="row border-top border-light mx-xl-5 py-4">
             <div class="col-md-6 px-xl-0">
                 <p class="mb-md-0 text-center text-md-left text-dark">
-                    &copy; <a class="text-dark font-weight-semi-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed
-                    by
+                    &copy; <a class="text-dark font-weight-semi-bold" href="#">DD Shop</a>. Tất cả các quyền được bảo lưu. Thiết kế bởi
                     <a class="text-dark font-weight-semi-bold" href="https://htmlcodex.com">HTML Codex</a>
                 </p>
             </div>

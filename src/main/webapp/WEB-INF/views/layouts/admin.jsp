@@ -117,7 +117,7 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu">
           <li class="active">
-            <a class="" href="index.html">
+            <a class="" href="<c:url value="/admin" />">
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
@@ -137,7 +137,7 @@
               <li><a class="" href="<c:url value="/admin/productsize" />">Size theo sản phẩm</a></li>
               <li><a class="" href="<c:url value="/admin/account" />">Tài khoản</a></li>
               <li><a class="" href="<c:url value="/admin/cart" />">Giỏ hàng</a></li>
-              <li><a class="" href="<c:url value="/admin/bill" />">Đơn hàng</a></li>
+              <li><a class="" href="<c:url value="/admin/bill" />">Hóa đơn</a></li>
               <li><a class="" href="<c:url value="/admin/price" />">Giá bán</a></li>
               <li><a class="" href="<c:url value="/admin/slide" />">Slide</a></li>
             </ul>

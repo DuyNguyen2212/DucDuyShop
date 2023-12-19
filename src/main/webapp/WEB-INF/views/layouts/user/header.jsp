@@ -97,7 +97,7 @@
                     <div class="navbar-nav w-100 overflow-hidden" style="height: 410px">
                     	<a href="<c:url value="/all" />" class="nav-item nav-link">Tất cả sản phẩm</a>
            				<c:forEach var="category" items="${ categories }">
-	                        <a href="<c:url value="/category/${ category.id }" />" class="nav-item nav-link">${ category.name }</a>
+	                        <a href="<c:url value="/category${ category.id }" />" class="nav-item nav-link">${ category.name }</a>
            				</c:forEach>
                     </div>
                 </nav>
@@ -118,7 +118,7 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Thương hiệu</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                 	<c:forEach var="company" items="${ companies }">
-	                                    <a href="<c:url value="/company/${ company.id }" />" class="dropdown-item">${ company.name }</a>
+	                                    <a href="<c:url value="/company${ company.id }" />" class="dropdown-item">${ company.name }</a>
                                 	</c:forEach>
                                 </div>
                             </div>

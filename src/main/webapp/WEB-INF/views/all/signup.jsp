@@ -7,7 +7,7 @@
 <body>
 	<div class="register-photo">
 		<div class="form-container">
-			<div class="image-holder" style="background: url(<c:url value="/assets/img/logimg.jpg" />); background-size: cover"></div>
+			<div class="image-holder" style="background: url(<c:url value="/assets/img/logimage.jpg" />); background-size: cover"></div>
 			
 			<form:form action="signup" method="POST" modelAttribute="newaccount" id="sign-up-form">
 				<h1 class="text-center"><a style="text-decoration: none; color: #e85d90" href="<c:url value="/" />">DD Shop</a></h1>

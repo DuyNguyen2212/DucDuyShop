@@ -34,7 +34,7 @@
                   	<th style="text-align: center"><i class="icon_cogs"></i></th>
                     <th style="text-align: center">Id</th>
                     <th scope="col">Họ tên</th>
-              		<th scope="col">Tên tài khoản</th>
+              		<th scope="col">Email</th>
               		<th scope="col">Mật khẩu</th>
               		<th scope="col">Quyền</th>
                   </tr>

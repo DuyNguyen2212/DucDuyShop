@@ -23,17 +23,14 @@
             <div class="col-lg-3 col-md-12">
                 <!-- Price Start -->
                 <div class="border-bottom mb-4 pb-4">
-                    <h5 class="font-weight-semi-bold mb-4">Tìm theo giá</h5>
 					<a class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
                             <label>Tất cả sản phẩm</label>
-                            <span class="badge border font-weight-normal">1000</span>
                     </a>
                     <c:forEach var="price" items="${ prices }">
                         	<a href="<c:url value="/price${ price.id }_${ price.from }_${ price.to }" />" style="text-decoration: none" class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
 	                            <label>
 	                            	<fmt:formatNumber type="number" groupingUsed="true" value="${ price.from }" /> ₫ - <fmt:formatNumber type="number" groupingUsed="true" value="${ price.to }" /> ₫
 	                            </label>
-	                            <span class="badge border font-weight-normal">1000</span>
                        		</a>
                         </c:forEach>
                 </div>
@@ -47,7 +44,6 @@
 	                            <label>
 	                            	${ company.name }
 	                            </label>
-	                            <span class="badge border font-weight-normal">1000</span>
                        		</a>
                         </c:forEach>
                 </div>
@@ -61,7 +57,6 @@
 	                            <label>
 	                            	${ category.name }
 	                            </label>
-	                            <span class="badge border font-weight-normal">1000</span>
                        		</a>
                         </c:forEach>
                 </div>
@@ -94,7 +89,7 @@
 	                                </div>
 	                            </div>
 	                            <div class="card-footer d-flex justify-content-between bg-light border">
-	                                <a href="<c:url value="/details/${ product.id }" />" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+	                                <a href="<c:url value="/details/${ product.id }" />" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>Chi tiết</a>
 	                                
 	                                <c:if test="${ empty loginsession }">
 			                        <a href="<c:url value="/login" />" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Thêm vào giỏ</a>
